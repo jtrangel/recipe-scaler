@@ -12,4 +12,4 @@ Get selenium web driver from [here](https://googlechromelabs.github.io/chrome-fo
 
 ### Run unit test/s
 
-`python -m pytest`
+`python3 -m pytest`

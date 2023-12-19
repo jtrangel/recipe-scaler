@@ -111,11 +111,13 @@ def scrape_recipe2(url: str, target_class: str, p: float) -> pd.DataFrame:
 
     return df
 
+# Test run
 if __name__ == '__main__':
     url = 'https://www.cookingnook.com/recipe/carbonara/'
 
-    # df1 = scrape_recipe(url=url, target_class='wprm-recipe-ingredient', p=2)
-    # print(df1)
+    df1 = scrape_recipe(url=url, target_class='wprm-recipe-ingredient', p=2)
+    print(df1.to_string())
 
-    df2 = scrape_recipe2(url=url, target_class='wprm-recipe-ingredient', p=2)
+    df2 = scrape_recipe2(url=url, target_class='wprm-recipe-ingredient', p=1)
     print(df2.to_string())
+
