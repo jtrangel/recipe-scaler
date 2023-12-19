@@ -2,7 +2,6 @@ import unittest
 import pandas as pd
 from main import scrape_recipe, scrape_recipe2
 from pandas.testing import assert_frame_equal
-import os
 
 class TestRecipeScaler(unittest.TestCase):
     def setUp(self):

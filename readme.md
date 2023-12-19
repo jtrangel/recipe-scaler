@@ -10,6 +10,8 @@ Get selenium web driver from [here](https://googlechromelabs.github.io/chrome-fo
 
 `source ./venv/scripts/activate`
 
+`pip install -r requirements.txt`
+
 ### Run unit test/s
 
 `python3 -m pytest`
